@@ -1,0 +1,21 @@
+-------------------------
+git init
+git config --global user.email o352180877@gmail.com
+git config --global user.name Hades
+
+# add GIT.txt
+# https://www.postgresqltutorial.com/
+
+git add GIT.txt
+git commit -m "1st day with PostGreSQL Tutorial - BASIC"
+--------------------------------------------------
+
+git remote -v
+# goto GutHub & create remote repo named "Hades-Coding/pSQL-tutor-basic"
+git remote add remote_repo https://github.com/Hades-Coding/pSQL-Tutor.git
+
+-- git branch
+git branch -M master
+git push -u remote_repo master
+-- login via browser to save credential
+--------------------------------------------------
