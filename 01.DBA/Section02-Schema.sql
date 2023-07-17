@@ -1,11 +1,16 @@
 --------------------------------------------------
 -- Section02-Schema.sql
+-- https://www.postgresqltutorial.com/postgresql-schema/
 --------------------------------------------------
 \c dvdrental
 --------------------------------------------------
 -- Section 2. Managing Schemas
 --------------------------------------------------
 -- 2.0. Notes
+-- 0. Schema Info
+\db
+\db+
+
 -- FQDN (fully qualified domain name): database.schema.table
 
 -- View schema search path

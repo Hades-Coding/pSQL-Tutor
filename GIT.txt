@@ -32,7 +32,7 @@ git commit -m "Section 01 - Managing DB"
 
 git commit -m "Import DB & first section"
 git push -u
---------------------------------------------------
+
 git add GIT.txt
 git commit -m "Corresponding GIT cmd"
 git push -u
@@ -45,4 +45,12 @@ git add GIT.txt
 git commit -m "Corresponding GIT cmd"
 
 git push -u
+--------------------------------------------------
+git add 01.DBA\Section03-TBS.sql
+git commit -m "Section 3 - Tablespace"
 
+git add GIT.txt
+git commit -m "Corresponding GIT cmd"
+
+git push -u
+--------------------------------------------------
