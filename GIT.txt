@@ -19,3 +19,17 @@ git branch -M master
 git push -u remote_repo master
 -- login via browser to save credential
 --------------------------------------------------
+--------------------------------------------------
+-- Add DB sample
+git add 00.SampleDB\dvdrental.tar
+git commit -m "Add sample DB"
+
+git add 01.DBA\Section00-Add-dvdrental-SampleDB.sql
+git commit -m "Script to add sample DB"
+
+git add 01.DBA\Section01-Managing-DB.sql
+git commit -m "Section 01 - Managing DB"
+
+git commit -m "Import DB & first section"
+git push -u
+--------------------------------------------------
